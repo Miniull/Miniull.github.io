@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>test</title>
+      <title>CTFshow命令执行</title>
       <link href="/2021/11/05/test/"/>
       <url>/2021/11/05/test/</url>
       
@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 123 </category>
+          <category> ctfshow </category>
           
       </categories>
       
