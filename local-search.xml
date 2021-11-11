@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>test</title>
-    <link href="/2021/11/11/test/"/>
-    <url>/2021/11/11/test/</url>
+    <title>php特性</title>
+    <link href="/2021/11/11/php%E7%89%B9%E6%80%A7/"/>
+    <url>/2021/11/11/php%E7%89%B9%E6%80%A7/</url>
     
-    <content type="html"><![CDATA[<p><img src="/2021/11/11/test/1.jpg"></p><p>题目对数字进行了过滤，但又需要传入数字</p><p>利用preg_match()函数无法处理数组的漏洞</p><p>payload:</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="web89"><a href="#web89" class="headerlink" title="web89"></a>web89</h1><p>源码：</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><code class="hljs php"><span class="hljs-meta">&lt;?php</span><br><br><span class="hljs-comment">/*</span><br><span class="hljs-comment"># -*- coding: utf-8 -*-</span><br><span class="hljs-comment"># <span class="hljs-doctag">@Author</span>: h1xa</span><br><span class="hljs-comment"># <span class="hljs-doctag">@Date</span>:   2020-09-16 11:25:09</span><br><span class="hljs-comment"># <span class="hljs-doctag">@Last</span> Modified by:   h1xa</span><br><span class="hljs-comment"># <span class="hljs-doctag">@Last</span> Modified time: 2020-09-18 15:38:51</span><br><span class="hljs-comment"># <span class="hljs-doctag">@email</span>: h1xa<span class="hljs-doctag">@ctfer</span>.com</span><br><span class="hljs-comment"># <span class="hljs-doctag">@link</span>: https://ctfer.com</span><br><span class="hljs-comment"></span><br><span class="hljs-comment">*/</span><br><br><br><span class="hljs-keyword">include</span>(<span class="hljs-string">&quot;flag.php&quot;</span>);<br>highlight_file(<span class="hljs-keyword">__FILE__</span>);<br><br><span class="hljs-keyword">if</span>(<span class="hljs-keyword">isset</span>(<span class="hljs-variable">$_GET</span>[<span class="hljs-string">&#x27;num&#x27;</span>]))&#123;<br>    <span class="hljs-variable">$num</span> = <span class="hljs-variable">$_GET</span>[<span class="hljs-string">&#x27;num&#x27;</span>];<br>    <span class="hljs-keyword">if</span>(preg_match(<span class="hljs-string">&quot;/[0-9]/&quot;</span>, <span class="hljs-variable">$num</span>))&#123;<br>        <span class="hljs-keyword">die</span>(<span class="hljs-string">&quot;no no no!&quot;</span>);<br>    &#125;<br>    <span class="hljs-keyword">if</span>(intval(<span class="hljs-variable">$num</span>))&#123;<br>        <span class="hljs-keyword">echo</span> <span class="hljs-variable">$flag</span>;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure><p>题目对数字进行了过滤，但又需要传入数字</p><p>利用preg_match()函数无法处理数组的漏洞</p><p>payload:</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs php">?num[]=<span class="hljs-number">9</span><br></code></pre></td></tr></table></figure>]]></content>
     
     
     <categories>
@@ -17,6 +17,12 @@
       
     </categories>
     
+    
+    <tags>
+      
+      <tag>ctf</tag>
+      
+    </tags>
     
   </entry>
   
