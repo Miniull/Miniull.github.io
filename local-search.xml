@@ -4,50 +4,13 @@
   
   
   <entry>
-    <title>aa</title>
-    <link href="/2021/11/06/aa/"/>
-    <url>/2021/11/06/aa/</url>
+    <title>test</title>
+    <link href="/2021/11/11/test/"/>
+    <url>/2021/11/11/test/</url>
     
-    <content type="html"><![CDATA[<h1 id="sad"><a href="#sad" class="headerlink" title="# sad"></a># sad</h1>]]></content>
-    
-    
-    <categories>
-      
-      <category>ctfhub</category>
-      
-    </categories>
+    <content type="html"><![CDATA[]]></content>
     
     
-    <tags>
-      
-      <tag>ctf</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>CTFshow命令执行</title>
-    <link href="/2021/11/05/test/"/>
-    <url>/2021/11/05/test/</url>
-    
-    <content type="html"><![CDATA[<h1 id="test"><a href="#test" class="headerlink" title="test"></a>test</h1><p><img src="/2021/11/05/test/1.jpg"></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>ctfshow</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>1</tag>
-      
-    </tags>
     
   </entry>
   
